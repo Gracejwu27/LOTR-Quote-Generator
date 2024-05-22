@@ -89,7 +89,7 @@ app.get('/analyze-quote-positive', async(req, res) => {
             }
             attempts++; 
             }else{
-                const quotes = require('../quotesPositive.json');
+                const quotes = require('./quotesPositive.json');
                 const randomIndex = Math.floor(Math.random() * quotes.length);
                 return res.json({quote: quotes[randomIndex].quote, char: quotes[randomIndex].character})
             }
@@ -142,7 +142,7 @@ app.get('/analyze-quote-negative', async(req, res) => {
             }
             attempts++; 
             }else{
-                const quotes = require('../quotesNegative.json');
+                const quotes = require('./quotesNegative.json');
                 const randomIndex = Math.floor(Math.random() * quotes.length);
                 return res.json({quote: quotes[randomIndex].quote, char: quotes[randomIndex].character})
             }
