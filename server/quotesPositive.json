@@ -1,0 +1,72 @@
+[
+    {
+    "quote": "All we have to decide is what to do with the time that is given to us.",
+    "character": "Gandalf",
+        "sentiment": "positive"
+      },
+     {
+        "quote": "So do I, and so do all who live to see such times.",
+        "character": "Gandalf",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "There is some good in this world, and it's worth fighting for.",
+        "character": "Samwise Gamgee",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "I can't carry it for you, but I can carry you!",
+        "character": "Samwise Gamgee",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "Even the smallest person can change the course of the future.",
+        "character": "Galadriel",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "You shall not pass!",
+        "character": "Gandalf",
+        "sentiment": "positive"
+      },
+    {
+      "quote": "May it be a light to you in dark places, when all other lights go out.",
+      "character": "Galadriel",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I would rather share one lifetime with you than face all the Ages of this world alone.",
+      "character": "Arwen Undómiel",
+      "sentiment": "positive"
+    },    
+    {
+        "quote": "The Beacons of Minas Tirith! The Beacons are lit! Gondor calls for aid.",
+        "character": "Aragorn II Elessar",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "I am no man.",
+        "character": "Eowyn",
+        "sentiment": "positive"
+      },
+      {
+        "quote": "Your time will come. You will face the same Evil, and you will defeat it.",
+        "character" : "Arwen Undómiel",
+        "sentiment" : "positive"
+      },
+      {
+        "quote" : "Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement. For even the very wise cannot see all ends.",
+        "character" : "Gandalf",
+        "sentiment" : "positive"
+      },
+      {
+        "quote":"Even darkness must pass. A new day will come. And when the sun shines it will shine out the clearer. Those were the stories that stayed with you, that meant something, even if you were too small to understand why.",
+        "character" : "Samwise Gamgee",
+        "sentiment" : "positive"
+      },
+      {
+        "quote":"We told him to go away. And away he goes, precious. Gone! Gone! Gone! Smeagol is free!",
+        "character" : "Gollum",
+        "sentiment" : "positive"
+      }
+]

@@ -1,0 +1,208 @@
+[
+    {
+      "quote": "All we have to decide is what to do with the time that is given to us.",
+      "character": "Gandalf",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "So do I, and so do all who live to see such times.",
+      "character": "Gandalf",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "There is some good in this world, and it's worth fighting for.",
+      "character": "Samwise Gamgee",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I can't carry it for you, but I can carry you!",
+      "character": "Samwise Gamgee",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The Ring has awoken, it’s heard its master’s call.",
+      "character": "Gandalf",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Even the smallest person can change the course of the future.",
+      "character": "Galadriel",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "You shall not pass!",
+      "character": "Gandalf",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "One does not simply walk into Mordor.",
+      "character": "Boromir",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "May it be a light to you in dark places, when all other lights go out.",
+      "character": "Galadriel",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I would rather share one lifetime with you than face all the Ages of this world alone.",
+      "character": "Arwen Undómiel",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "The road goes ever on and on.",
+      "character": "Bilbo Baggins",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "A day may come when the courage of men fails… but it is not THIS day.",
+      "character": "Aragorn II Elessar",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "Togo hon dad, Legolas!",
+      "character": "Aragorn II Elessar",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "He leaves because there is no hope.",
+      "character": "Gamling",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "“They have a cave troll.”",
+      "character": "Boromir",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "“Fool of a Took!”",
+      "character": "Gandalf",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "“Where was Gondor when the Westfold fell?”",
+      "character": "Theoden",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "They're taking the Hobbits to Isengard!",
+      "character": "Legolas",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "I always liked going south. Somehow, it feels like going downhill.",
+      "character": "Treebeard",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "The Ring will not save Gondor. It has only the power to destroy. Please, Iet me go.",
+      "character": "Frodo Baggins",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Boromir was loyal to me! Not some wizard's pupil.",
+      "character": "Denethor II",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "He loves you, Father.",
+      "character": "Boromir",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "So much death. What can Men do against such reckless hate?",
+      "character": "Theoden",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "Looks like meat’s back on the menu boys!",
+      "character": "Ugluk",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "I cannot jump the distance you’ll have to toss me.",
+      "character": "Gimli",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "The Beacons of Minas Tirith! The Beacons are lit! Gondor calls for aid.",
+      "character": "Aragorn II Elessar",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "I am no man.",
+      "character": "Eowyn",
+      "sentiment": "positive"
+    },
+    {
+      "quote": "She’s always hungry. She always needs to feed.",
+      "character": "Gollum",
+      "sentiment": "negative"
+    },
+    {
+      "quote": "That still only counts as one!",
+      "character": "Gimli",
+      "sentiment": "funny"
+    },
+    {
+      "quote": "What's taters, precious? What's taters? Eh?",
+      "character": "Gollum",
+      "sentiment":"funny"
+    },
+    {
+      "quote": "Your time will come. You will face the same Evil, and you will defeat it.",
+      "character" : "Arwen Undómiel",
+      "sentiment" : "positive"
+    },
+    {
+      "quote": "Arwen. There is nothing for you here, only death.",
+      "character" : "Elrond",
+      "sentiment" : "negative"
+    },
+    {
+      "quote": "You stink of horse. The Man...",
+      "character" : "Saruman",
+      "sentiment" : "negative"
+    },
+    {
+      "quote": "Murderer' they called us. They cursed us and drove us away.",
+      "character" : "Gollum",
+      "sentiment" : "negative"
+    },
+    {
+      "quote": "One ring to rule them all, one ring to find them, one ring to bring them all and in the darkness bind them.",
+      "character" : "Gandalf",
+      "sentiment" : "negative"
+    },
+    {
+      "quote": "A wizard is never late, nor is he early, he arrives precisely when he means to.",
+      "character" : "Gandalf",
+      "sentiment" : "funny"
+    },
+    {
+      "quote": "I Like Less Than Half Of You Half As Well As You Deserve.",
+      "character" : "Bilbo Baggins",
+      "sentiment" : "funny"
+    },
+    {
+      "quote": "It comes in pints?.",
+      "character" : "Peregrin Took",
+      "sentiment" : "funny"
+    },
+    {
+      "quote": "We Dwarves Are Natural Sprinters.",
+      "character" : "Gimli",
+      "sentiment" : "funny"
+    },
+    {
+      "quote": "What about second breakfast?",
+      "character" : "Peregrin Took",
+      "sentiment" : "funny"
+    },
+
+{
+      "quote": "Po-tay-toes! Boil ‘Em, Mash ‘Em, Stick ‘Em In A Stew!",
+      "character" : "Samwise Gamgee",
+      "sentiment" : "funny"
+    }
+  ]

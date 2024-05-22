@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Ringbearer';
+  src: local('Ringbearer'), url(./fonts/RingbearerMedium-51mgZ.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: local('Aniron'), url(./fonts/Aniron-7BaP.ttf) format('ttf');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #eae6d7;
+}
+.quote {
+  font-family: "Aniron";
+  color: #3f3f5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px;
+}
+.char {
+  font-style: italic;
+}
+.header {
+  background-color: #36364b;
+  padding: 30px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* or 'flex-start' if you want them close together */
+  padding: 10px;
+}
+.header h1 {
+  margin-left: 100px;
+  font-family: "Ringbearer", cursive;
+  font-style: italic;
+  font-size: 5.0em;
+}
+.header img {
+  opacity: 100%;
+  float: right;
+  width: 200px; 
+  margin-right: 150px; 
+  margin-left: 100px; 
+  
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #36364b;
+  border-radius: 30px;
+  box-shadow: #36364b 4px 4px 0 0;
+  color: #36364b;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: "Ringbearer";
+  font-style: bold; 
+  margin: 10px; 
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+.button-74:hover {
+  background: #e8b923;
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 4px #3f411c,
+    0px 0px 180px 0px #643f1e;
+  transform: translateY(-2px);
+}
+.nav{
+  background-color: #e8b923;
+  color: #36364b; 
+  display: flex; 
+  justify-content:space-around;
+  align-items: stretch; 
+  gap: 2rem; 
+    padding: 0 1rem; 
+}
+
+.nav ul{
+  padding: 0; 
+  margin: 0;
+  list-style: none; 
+  display: flex; 
+  gap: 1rem; 
+}
+
+.nav a{
+  color: inherit; 
+  font-family: "Ringbearer";
+  text-decoration: none;  
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 3rem;
+  font-size: 2rem;
+}
+
+.nav li.active{
+  background-color: #ebcb75; 
+}
+
+.nav li:hover{
+  background-color: #e4d3a3;
+  
+}
+
+.AboutHeader{
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: bold; 
+  font-size: 3rem;
+  color: #36364b; 
+}
+.AboutText{
+  padding: 0rem 10rem;
+  font-size: 2rem; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.AboutFooter{
+  font-size: 1.25rem; 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; 
+}
+.AboutText a{
+  padding: 0.75rem; 
+}
