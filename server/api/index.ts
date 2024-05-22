@@ -1,13 +1,12 @@
 const express = require("express");
 const app = express();
-
 const path = require('path');
+const f = require('node-fetch');
 require('dotenv').config()
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
-app.listen(9000);
   
 const NaturalLanguageUnderstandingV1 = require('ibm-watson/natural-language-understanding/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
@@ -20,15 +19,13 @@ const nlu= new NaturalLanguageUnderstandingV1({
   serviceUrl: 'https://api.us-east.natural-language-understanding.watson.cloud.ibm.com',
 });
 
-app.use(express.json());
-app.use(express.static(path.join(__dirname, 'build')));
-
 //get the quotes
 app.get('/api/quotes', async(req, res) =>{
     const Headers = {
         Accept: "application/json",
         Authorization: `Bearer ${process.env.LOTR_KEY}`,
     }
+    console.log('LOTR_KEY:', process.env.LOTR_KEY);
     try {
       const response = await fetch('https://the-one-api.dev/v2/quote', { headers: Headers });
       if (response.status !== 429) {
@@ -160,5 +157,10 @@ app.get('/api/analyze-quote-negative', async(req, res) => {
         }
     }
 });
+
+
+
+// Ensure your API routes are defined before this line
+app.use(express.static(path.join(__dirname, 'build')));
 
 module.exports = app;
