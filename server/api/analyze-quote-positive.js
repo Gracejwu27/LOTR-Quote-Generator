@@ -12,7 +12,7 @@ const nlu = new NaturalLanguageUnderstandingV1({
   serviceUrl: 'https://api.us-east.natural-language-understanding.watson.cloud.ibm.com',
 });
 
-module.exports(async(req, res) => {
+module.exports = async(req, res) => {
     const headers = {
         Accept: "application/json",
         Authorization: `Bearer ${process.env.LOTR_KEY}`,
@@ -62,4 +62,4 @@ module.exports(async(req, res) => {
             break;
         }
     }
-});
+};
