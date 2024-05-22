@@ -24,6 +24,7 @@ module.exports = async (req, res) => {
           quote: quoteData.dialog,
           char: characterData.name === "MINOR_CHARACTER" ? "Minor Character" : characterData.name
         };
+        res.setHeader('Content-Type', 'application/json');
         res.json(APIresponse);
       } else {
         // Handle rate limit case

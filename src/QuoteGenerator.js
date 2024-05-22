@@ -65,7 +65,7 @@ function QuoteGenerator() {
       console.log(rawQuotes.status);
       if(rawQuotes.status !== 429){
         const data = await rawQuotes.json();
-
+        console.log(data.status);
         setQuote(data.quote);
         setChar(data.char);
        
