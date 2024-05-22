@@ -23,6 +23,7 @@ module.exports = async (req, res) => {
     while(attempts < maxAttempts){
         try{
             const response = await fetch("https://the-one-api.dev/v2/quote", {headers});
+            console.log(response.status);
             if(response.status !== 429){
             const data = await response.json();
             const allQuotes = data.docs;

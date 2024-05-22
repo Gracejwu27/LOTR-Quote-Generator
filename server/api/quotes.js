@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   
     try {
       const response = await fetch('https://the-one-api.dev/v2/quote', { headers: Headers });
-  
+      console.log(response.status);
       if (response.status !== 429) {
         // Fetching quote
         const quotes = await response.json();
