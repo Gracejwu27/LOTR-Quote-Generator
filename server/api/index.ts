@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'build')));
 
 //get the quotes
-app.get('/quotes', async(req, res) =>{
+app.get('/api/quotes', async(req, res) =>{
     const Headers = {
         Accept: "application/json",
         Authorization: `Bearer ${process.env.LOTR_KEY}`,
@@ -57,7 +57,7 @@ app.get('/quotes', async(req, res) =>{
 })
 
 //get the positive quote
-app.get('/analyze-quote-positive', async(req, res) => {
+app.get('/api/analyze-quote-positive', async(req, res) => {
     const headers = {
         Accept: "application/json",
         Authorization: `Bearer ${process.env.LOTR_KEY}`,
@@ -109,7 +109,7 @@ app.get('/analyze-quote-positive', async(req, res) => {
 });
 
 //get the negative quote
-app.get('/analyze-quote-negative', async(req, res) => {
+app.get('/api/analyze-quote-negative', async(req, res) => {
     const headers = {
         Accept: "application/json",
         Authorization: `Bearer ${process.env.LOTR_KEY}`,
