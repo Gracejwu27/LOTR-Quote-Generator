@@ -16,7 +16,7 @@ function QuoteGenerator() {
 
   const getAnalyzedQuotePositive = () => {
     setIsLoading(true)
-    fetch('/api/analyze-quote-positive')
+    fetch('/analyze-quote-positive')
       .then(response => {
         return response.json(); 
       })
@@ -34,7 +34,7 @@ function QuoteGenerator() {
 
   const getAnalyzedQuoteNegative = () => {
     setIsLoading(true)
-    fetch('/api/analyze-quote-negative')
+    fetch('/analyze-quote-negative')
       .then(response => {
         return response.json(); 
       })
@@ -61,7 +61,7 @@ function QuoteGenerator() {
   const handleClick = async() => {
     setIsLoading(true);
     try{
-      const rawQuotes = await fetch('/api/quotes');
+      const rawQuotes = await fetch('/quotes');
       console.log(rawQuotes.status);
       if(rawQuotes.status !== 429){
         const data = await rawQuotes.json();
