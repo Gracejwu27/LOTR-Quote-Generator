@@ -27,13 +27,13 @@ app.get('/api/quotes', async(req, res) =>{
     }
     console.log('LOTR_KEY:', process.env.LOTR_KEY);
     try {
-      const response = await fetch('https://the-one-api.dev/v2/quote', { headers: Headers });
+      const response = await f('https://the-one-api.dev/v2/quote', { headers: Headers });
       if (response.status !== 429) {
         //fetching quote
         const quotes = await response.json();
         const quoteData = quotes.docs[Math.floor(Math.random() * quotes.docs.length)];
         //fetching character
-        const rawCharacters = await fetch(`https://the-one-api.dev/v2/character?_id=${quoteData.character}`, { headers: Headers });
+        const rawCharacters = await f(`https://the-one-api.dev/v2/character?_id=${quoteData.character}`, { headers: Headers });
         const characters = await rawCharacters.json();
 
         const characterData = characters.docs[0];
@@ -63,7 +63,7 @@ app.get('/api/analyze-quote-positive', async(req, res) => {
     const maxAttempts = 15
     while(attempts < maxAttempts){
         try{
-            const response = await fetch("https://the-one-api.dev/v2/quote", {headers});
+            const response = await f("https://the-one-api.dev/v2/quote", {headers});
             if(response.status !== 429){
             const data = await response.json();
             const allQuotes = data.docs;
@@ -81,7 +81,7 @@ app.get('/api/analyze-quote-positive', async(req, res) => {
                 const analysisResults = await nlu.analyze(analyzeParams);
                 const sentiment = analysisResults.result.sentiment.document.label;
                 if(sentiment === "positive"){
-                    const rawCharacters = await fetch(`https://the-one-api.dev/v2/character?_id=${allQuotes[randomIndex].character}`,{
+                    const rawCharacters = await f(`https://the-one-api.dev/v2/character?_id=${allQuotes[randomIndex].character}`,{
                     headers
                     });
                     const characters = await rawCharacters.json(); 
@@ -115,7 +115,7 @@ app.get('/api/analyze-quote-negative', async(req, res) => {
     const maxAttempts = 15
     while(attempts < maxAttempts){
         try{
-            const response = await fetch("https://the-one-api.dev/v2/quote", {headers});
+            const response = await f("https://the-one-api.dev/v2/quote", {headers});
             if(response.status !== 429){
             const data = await response.json();
             const allQuotes = data.docs;
@@ -134,13 +134,13 @@ app.get('/api/analyze-quote-negative', async(req, res) => {
                 console.log(quote);
                 console.log(sentiment);
                 if(sentiment === "negative"){
-                    const rawCharacters = await fetch(`https://the-one-api.dev/v2/character?_id=${allQuotes[randomIndex].character}`,{
+                    const rawCharacters = await f(`https://the-one-api.dev/v2/character?_id=${allQuotes[randomIndex].character}`,{
                     headers
                     });
                     const characters = await rawCharacters.json(); 
 
                     const char = characters.docs[0].name;
-                    return res.json({ quote: quote, sentiment: sentiment, char: char });
+                    return res.json({quote: quote, sentiment: sentiment, char: char });
                 }
             }
             attempts++; 
@@ -157,8 +157,6 @@ app.get('/api/analyze-quote-negative', async(req, res) => {
         }
     }
 });
-
-
 
 // Ensure your API routes are defined before this line
 app.use(express.static(path.join(__dirname, 'build')));
