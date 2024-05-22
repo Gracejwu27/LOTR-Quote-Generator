@@ -16,7 +16,7 @@ function QuoteGenerator() {
 
   const getAnalyzedQuotePositive = () => {
     setIsLoading(true)
-    fetch('/analyze-quote-positive')
+    fetch('/api/analyze-quote-positive')
       .then(response => {
         return response.json(); 
       })
@@ -34,7 +34,7 @@ function QuoteGenerator() {
 
   const getAnalyzedQuoteNegative = () => {
     setIsLoading(true)
-    fetch('/analyze-quote-negative')
+    fetch('/api/analyze-quote-negative')
       .then(response => {
         return response.json(); 
       })

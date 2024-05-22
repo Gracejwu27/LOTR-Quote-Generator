@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/api/quotes", "dest": "/server/api/quotes.js" },
+      {"src": "/api/analyze-quote-negative", "dest": "/server/api/analyze-quote-negative.js"},
+      {"src": "/api/analyze-quote-positive", "dest": "/server/api/analyze-quote-positive.js"}
+    ]
+  }
+  
