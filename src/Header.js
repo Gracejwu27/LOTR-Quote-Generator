@@ -7,7 +7,7 @@ console.log(Logo)
 function Header() {
   return (
     <div className="header">
-      <h1>Lord of the Rings Quote Generator</h1>
+      <h1>Lord of the Rings Movie Quote Generator</h1>
       <img src={Logo} alt=""/>
     </div>
   );
