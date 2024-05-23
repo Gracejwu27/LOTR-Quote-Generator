@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: 'Ringbearer';
-  src: local('Ringbearer'), url(./fonts/RingbearerMedium-51mgZ.ttf) format('ttf');
+  src: url(./fonts/RingbearerMedium-51mgZ.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Aniron';
-  src: local('Aniron'), url(./fonts/Aniron-7BaP.ttf) format('ttf');
+  src: url(./fonts/Aniron-7BaP.ttf) format('truetype');
 }
 
 html,
