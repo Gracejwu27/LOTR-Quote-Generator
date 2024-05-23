@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding: 1.25rem;
   margin: 0.5rem;
 }
@@ -159,7 +159,9 @@ body {
 @media (max-width: 480px) {
   /* Adjust styles specifically for mobile phones */
   .quote {
-    font-size: 1.75rem; /* even smaller font size */
+    font-size: 1.15rem; /* even smaller font size */
+    padding: 0.15rem; 
+    margin: 0.25rem; 
   }
   .header h1 {
     font-size: 1.5em; /* smaller header font size for mobile */
