@@ -159,7 +159,7 @@ body {
 @media (max-width: 480px) {
   /* Adjust styles specifically for mobile phones */
   .quote {
-    font-size: 2.5rem; /* even smaller font size */
+    font-size: 1.75rem; /* even smaller font size */
   }
   .header h1 {
     font-size: 1.5em; /* smaller header font size for mobile */
@@ -167,6 +167,6 @@ body {
   .AboutText{
     padding: 0rem 1rem; 
     font-size: 1rem; 
-    
+
   }
 }

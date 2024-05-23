@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5992cc72.css",
+    "main.css": "/static/css/main.f56524ee.css",
     "main.js": "/static/js/main.ed029c23.js",
     "static/media/Logo.png": "/static/media/Logo.e3657e4b6f28b954e087.png",
     "static/media/Aniron-7BaP.ttf": "/static/media/Aniron-7BaP.1153b7f358f58c6ba6df.ttf",
     "static/media/RingbearerMedium-51mgZ.ttf": "/static/media/RingbearerMedium-51mgZ.81688da96bd2ba917e09.ttf",
     "index.html": "/index.html",
-    "main.5992cc72.css.map": "/static/css/main.5992cc72.css.map",
+    "main.f56524ee.css.map": "/static/css/main.f56524ee.css.map",
     "main.ed029c23.js.map": "/static/js/main.ed029c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.5992cc72.css",
+    "static/css/main.f56524ee.css",
     "static/js/main.ed029c23.js"
   ]
 }
